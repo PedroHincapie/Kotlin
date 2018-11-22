@@ -11,7 +11,7 @@ fun main(args: Array<String>) {
     //implementacion de los diferentes tipos
     mutables = 3
 
-    inmutables = 4
+    //inmutables = 4
 
     print(mutables + inmutables)
 
@@ -34,5 +34,39 @@ fun main(args: Array<String>) {
     numero = "8".toInt()
 
     print(numero)
+
+   /* Una duda, entonces especificarle el tipo a kotlin sería una mala practica?
+
+   No siempre, hay veces en los que es necesario hacerlo, por ejemplo, cuando declaramos variables “globales” y queremos que desde el principio sean nulls o sean “nulleables” como lo siguiente
+
+    var nombre = "Lisa"
+    nombre = null//Esto tira error ya que nombre no puede ser null
+
+/////////////////
+
+    var nombre:String? = "Lisa"
+    nombre = null//Esto si se puede por que ya especificaste el tipo de dato
+    */
+
+    //Tipos de datos
+    /*
+        Tipos de enteros:
+    * Long—64 bit
+    * Int—32 bit
+    * Short—16 bit
+    * Byte—8 bit
+
+     Tipo flotante
+    * Double—64 bit
+    * Float—32 bit
+
+
+    Tipo String
+     String
+
+     Tipo booleano
+     Boolean
+
+     */
 
 }
