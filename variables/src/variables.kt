@@ -27,4 +27,12 @@ fun main(args: Array<String>) {
 
     var apellido : String = "Hincapie"
 
+    //para el caso en que requieras convertiri un String to Int
+
+    var numero = 3
+
+    numero = "8".toInt()
+
+    print(numero)
+
 }
