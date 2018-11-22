@@ -15,4 +15,16 @@ fun main(args: Array<String>) {
 
     print(mutables + inmutables)
 
+    /*
+    Dentro de Kotlin, podemos tipar o no las varibales.
+
+    Por ser inteligente este, se auto infiere y determina el tipo de dato que se esta
+     utilizando en una de sus variable.
+     */
+
+    // ejemplo
+    var nombre = "Pedro"
+
+    var apellido : String = "Hincapie"
+
 }
