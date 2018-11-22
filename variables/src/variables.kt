@@ -68,5 +68,18 @@ fun main(args: Array<String>) {
      Boolean
 
      */
+    var n1 : Int = 0
+    var n2 : Long = 23
+    var n2_1 : Long = 2L
+    var n2_2 = 34L
+    var n3 : Float = 4f
+    var n3_1 = 5.7
+    var n4 : Double = 34.5
+    var n4_1 = 3.6
+
+    var n5 : Boolean = true
+    var n6 = false
+
+
 
 }
